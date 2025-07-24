@@ -1,0 +1,35 @@
+# VS Code 設定ファイル
+.vscode/
+
+# OS によるファイル
+.DS_Store
+Thumbs.db
+
+# 一時ファイル・ログ
+*.log
+*.tmp
+*.swp
+*.swo
+
+# npm
+node_modules/
+
+# Python 仮想環境
+venv/
+__pycache__/
+
+# ビルド成果物
+dist/
+build/
+*.pyc
+*.class
+*.o
+*.exe
+
+# 環境ファイル（セキュリティ上の理由）
+.env
+.env.local
+
+# その他
+*.bak
+*.orig
